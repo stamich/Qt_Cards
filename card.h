@@ -12,7 +12,6 @@
 #include <QString>
 #include <QLabel>
 
-/** Etykieta QLabel pokazująca kartę */
 class CARDS_EXPORT Card : public QLabel {
 Q_OBJECT
 public:
@@ -24,6 +23,6 @@ QPixmap m_pixmap;
 
 };
 
-#endif        //  #ifndef CARD_H
+#endif //  #ifndef CARD_H
 
 #endif //QTONE_CARD_H
