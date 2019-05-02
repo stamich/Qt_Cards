@@ -3,7 +3,7 @@
 //
 
 #include <QtGui>
-#include "card.h"
+#include "Card.h"
 #include "card_pics.h"
 
 Card::Card(QString name, QWidget* parent) : QLabel(parent) {

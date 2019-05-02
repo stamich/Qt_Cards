@@ -14,7 +14,7 @@ find_package(Qt5Core REQUIRED)
 find_package(Qt5Widgets REQUIRED)
 find_package(Qt5Quick REQUIRED)
 
-add_executable(Qt_Cards card.cpp card.h cards_export.h card_pics.h main.cpp carddeck.cpp carddeck.h cardhand.cpp cardhand.h)
+add_executable(Qt_Cards Card.cpp Card.h cards_export.h card_pics.h main.cpp CardDeck.cpp CardDeck.h CardHand.cpp CardHand.h)
 
 target_link_libraries(Qt_Cards Qt5::Core)
 target_link_libraries(Qt_Cards Qt5::Widgets)

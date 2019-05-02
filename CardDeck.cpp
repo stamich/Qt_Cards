@@ -2,7 +2,7 @@
 // Created by michal on 02.05.19.
 //
 
-#include "carddeck.h"
+#include "CardDeck.h"
 #include <QDebug>
 #include <cstdlib>
 #include <ctime>

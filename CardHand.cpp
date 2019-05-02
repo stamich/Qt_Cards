@@ -2,7 +2,7 @@
 // Created by michal on 02.05.19.
 //
 
-#include "cardhand.h"
+#include "CardHand.h"
 
 int CardHand::getValue()
 {

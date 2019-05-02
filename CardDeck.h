@@ -8,8 +8,8 @@
 #ifndef CARDDECK_H
 #define CARDDECK_H
 
-#include "card.h"
-#include "cardhand.h"
+#include "Card.h"
+#include "CardHand.h"
 #include <QList>
 
 class CardDeck : public QList <Card>

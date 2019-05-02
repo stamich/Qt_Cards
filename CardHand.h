@@ -10,7 +10,7 @@
 
 #include <QString>
 #include <QList>
-#include <card.h>
+#include <Card.h>
 
 class CardHand : public QList <Card>
 {
